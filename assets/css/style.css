@@ -1,0 +1,234 @@
+/* visit later:
+https://www.w3schools.com/Css/tryit.asp?filename=trycss_link
+*/
+
+
+* {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("../images/gravel.png");
+    position: viewport;
+}
+
+header {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    /* border: solid; */
+    border-color: #cccccc;
+    overflow: auto;
+    position: static;
+}
+
+#YourName {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    float: left;
+    padding: 20px;
+    margin: auto;
+    position: viewport;
+}
+
+#Nav {
+    float: right;
+    padding-right: 5px;
+    position: viewport;
+}
+
+.ParaBox {
+    width: 920px;
+    background-color: #ffffff;
+    border: solid;
+    border-width: thin;
+    border-color: #dddddd;
+    overflow: auto;
+    margin: auto;
+    padding: 0px 20px 30px 20px;
+    position: viewport;
+}
+
+.SubHeading {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    position: viewport;
+}
+
+.CatImage {
+    width: 250px;
+    height: 180px;
+    float: left;
+    padding-top: 5px;
+    position: viewport;
+}
+
+p {
+    padding: 0 1% 1%;
+    margin-top: 1px;
+    margin-left: 280px;
+    line-height: 2.0;
+    position: viewport;
+}
+
+/* #Line {
+    width: 95%;
+} */
+
+.BigPortfolioBox {
+    width: 920px;
+    background-color: #ffffff;
+    border: solid;
+    border-width: thin;
+    border-color: #dddddd;
+    overflow: auto;
+    margin: auto;
+    position: viewport;
+    padding: 0px 20px 30px 20px;
+}
+
+.TheGoods {
+    position: viewport;
+    float: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.TheGoods img {
+    width: 340px;
+    height: 200px;
+    position: viewport;
+}
+
+.TheGoods h4 {
+    position: viewport;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 15px 0px 15px;
+    width: 340px;
+    bottom: 15px;
+}
+
+.ContactBox {
+    width: 920px;
+    background-color: #ffffff;
+    border: solid;
+    border-width: thin;
+    border-color: #dddddd;
+    overflow: auto;
+    margin: auto;
+    position: viewport;
+    padding: 0px 20px 30px 20px;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    font-size: 10px;
+    color: #cccccc;
+    padding: 2% 40% 0.5%;
+    margin-top: 70px;
+    position: fixed;
+}
+
+@media screen and (max-width: 960px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 640px) {
+    .header {
+        position:fixed;
+    }
+}
+
+/* Old box holding hangman stuff */
+/* .HangmanBox {
+    border: solid;
+    position: relative;
+    text-align: center;
+    float: left;
+    margin: 0px 30px 0px 20px;
+    top: -20px;
+} */
+
+/* .Hangman {
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: white;
+    background-color: #4aaaa5;
+    position: sticky;
+    top: 25%;
+    padding: 15px 0px 15px;
+    margin: 5px 0px 10px;
+} */
+
+/* Old box holding RPG game stuff */
+/* .RPGBox {
+    width: 340px;
+    overflow: auto;
+    border: solid;
+    position: relative;
+    text-align: center;
+    float: right; 
+    margin: -20px 0px 0px 0px;
+} */
+
+
+/* .RPG_game {
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: white;
+    background-color: #4aaaa5;
+    position: sticky;
+    top: 78%;
+    padding: 15px 0px 15px;
+    margin: 5px 0px 10px;
+} */
+
+/* Old box holding trivia stuff */
+/* .TriviaBox {
+    border: solid;
+    width: 340px;
+    position: relative;
+    text-align: center;
+    float: left;
+    margin: 0px 30px 0px 20px;
+    top: -20px;
+} */
+
+
+/* .Trivia {
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: white;
+    background-color: #4aaaa5;
+    position: sticky; 
+    padding: 15px 0px 15px;
+    margin: 5px 0px 10px;
+} */
+
+
+/* .PortfolioImgs {
+    width: 340px;
+    height: 200px;
+} */
+
+/*
+.Portfolios {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: white;
+    background-color: #4aaaa5;
+    position: absolute;
+    z-index: 2;
+} 
+*/
